@@ -11,7 +11,7 @@ public abstract class Piece {
         this.color = color;
     }
 
-    public abstract boolean isValidMove(Square start, Square end);
+    public abstract boolean isValidMove(Square start, Square end, Board board);
 
     public abstract String getPieceName();
 
